@@ -5,7 +5,7 @@ package com.company.adapter;
  */
 public class fggfddgfgfgf {
     public static void main(String[] args) {
-        System.out.println("我呵dfdds呵你");
+        System.out.println("我呵呵你");
     }
     //fdsfdsfdssfd
 }
