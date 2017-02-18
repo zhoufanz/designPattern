@@ -6,5 +6,5 @@ package com.company.adapter;
 public class fggfddgfgfgf {
     public static void main(String[] args) {
     }
-    //f4444dsfdsfdssfdfgdsgffgsgfgfgfs
+    //f4444dsfdsfdssfdfgdsgffgsgfgfgfsdsafffdfdsfdsfdfdsadfsfdsfdsfdsfds
 }
