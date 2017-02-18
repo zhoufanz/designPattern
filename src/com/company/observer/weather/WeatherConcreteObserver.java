@@ -6,6 +6,10 @@ package com.company.observer.weather;
 public class WeatherConcreteObserver implements  WeatherObserver {
     private String observerName;
 
+    private String notifyMessage;
+
+    private String observerStatus;
+
     public String getObserverName() {
         return observerName;
     }
@@ -25,13 +29,9 @@ public class WeatherConcreteObserver implements  WeatherObserver {
     public String getObserverStatus() {
         return observerStatus;
     }
-
     public void setObserverStatus(String observerStatus) {
         this.observerStatus = observerStatus;
     }
-
-    private String notifyMessage;
-    private String observerStatus;
 
     @Override
     public void update(WeatherSubject weatherSubject) {

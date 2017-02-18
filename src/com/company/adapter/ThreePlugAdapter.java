@@ -16,5 +16,6 @@ public class ThreePlugAdapter implements ThreePlugInterface {
         System.out.println("二孔线板转化成三孔");
         twoPlug.powerWithTwo();
         System.out.println();
+        //1.0
     }
 }
