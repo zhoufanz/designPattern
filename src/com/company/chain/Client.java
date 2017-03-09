@@ -9,7 +9,10 @@ public class Client {
     public static void main(String[] args) {
         ConcreteHandler h1=new ConcreteHandler();
         ConcreteHandler h2=new ConcreteHandler();
-        h1.setSuccessor(h2);
-        h1.handleRequest();
+        ConcreteHandler h3 =new ConcreteHandler();
+        h3.setSuccessor(h2);
+        h2.setSuccessor(h1);
+
+        h3.handleRequest();
     }
 }

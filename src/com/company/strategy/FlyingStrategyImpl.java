@@ -1,13 +1,13 @@
-package com.company.strategy.impl;
+package com.company.strategy;
 
 import com.company.strategy.FlyingStrategy;
 
 /**
  * Created by hasee on 2017/2/3.
  */
-public class FlyNoWay implements FlyingStrategy {
+public class FlyingStrategyImpl implements FlyingStrategy{
     @Override
     public void performFly() {
-        System.out.println("不会飞");
+        System.out.println("正翅高飞");
     }
 }

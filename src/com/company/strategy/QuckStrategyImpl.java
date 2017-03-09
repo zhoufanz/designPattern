@@ -1,4 +1,4 @@
-package com.company.strategy.impl;
+package com.company.strategy;
 
 /**
  * Created by hasee on 2017/2/3.

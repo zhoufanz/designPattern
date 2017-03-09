@@ -1,7 +1,5 @@
 package com.company.strategy;
 
-import com.company.strategy.impl.FlyNoWay;
-
 /**
  * Created by hasee on 2017/2/3.
  */

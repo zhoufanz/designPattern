@@ -12,8 +12,8 @@ public class Test {
         noteBook.charge();
         System.out.println();
 
-        three = new ThreePlugAdapter2();
+       /* three = new ThreePlugAdapter2();
         NoteBook noteBook1 = new NoteBook(three);
-        noteBook1.charge();
+        noteBook1.charge();*/
     }
 }
